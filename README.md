@@ -10,6 +10,8 @@ Account dort ist empfehlenswert.
 
 Dokumentiert wird die Arbeit in einem öffentlichem Github Repository.
 
+Die Lektionen und Aufgaben werden aus dem [CS50 2017 syllabus](http://docs.cs50.net/2017/x/syllabus.html) entnommen.
+
 ## Was wird Erwartet?
 
 1. Das Lösen der 9 Aufgaben/Problem Sets.
