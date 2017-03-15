@@ -49,4 +49,18 @@ in order to allow negative integers
 1. You can add up values from chars directly from a string array, but keep in mind
 that you only want to add in proportion to the alphabet, not to the ascii table.
 
-2. 
+2. In case you want to convert the characters of `argv` to a simple to use value,
+get the `strlen` before you do that. When you calculate `strlen` and it hit's a
+value of nul / 0 , it automatically ends.
+
+3. In order to get an easy to use value within the enycryptionKey, simply convert
+each `char` `toupper` and substract 65 from it, that way the result is still acsii
+but the exact values that are needed to correctly add up. pay attention to step 2
+while doing that.
+
+4. In order to "roll around" to the beginning of the encryption-key, simply use the
+modulo of the length of the encryption-key after the counter within the pointer of
+the array.
+
+5. The encryption-key should have it's own counter when encrypting in order to
+proceed with the key's pointer only when a value of the message has been encrypted
