@@ -36,7 +36,6 @@ void makeSpace(int n)
 
 void makeBlock(int n)
 {
-    
     for (int i = 0 ; i < n; i++)
     {
         printf("#");

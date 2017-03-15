@@ -12,15 +12,14 @@ int main(int argc, string argv[])
 {
     if (!sanityCheck(argc, argv[1]))
     {
-    printf("Usage: ./vigenere k.\n");
-    return 1;
+        printf("Usage: ./vigenere k.\n");
+        return 1;
     }
     
     string s = getMessage();
     int keyLength = strlen(argv[1]);
     string encryptKey = argvToKey(argv[1]);
     encryptMessage(s, encryptKey, keyLength);
-    
 }
 
 string argvToKey(string argvKey)
@@ -46,7 +45,6 @@ void encryptMessage(string msg, string key, int keyLength)
     
     while(msg[n] != '\0')
     {
-        
         if(isalpha(msg[n]))
         {
            if(msg[n] <= 'Z' && msg[n] + key[n2 % keyLength] > 'Z')

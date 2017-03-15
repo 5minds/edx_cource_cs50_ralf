@@ -11,8 +11,8 @@ int main(int argc, string argv[])
 {
     if (!sanityCheck(argc, argv[1]))
     {
-    printf("Usage: ./caesar k.\n");
-    return 1;
+        printf("Usage: ./caesar k.\n");
+        return 1;
     }
     
     int encryptKey = argvToInt(argv[1]);
@@ -24,7 +24,6 @@ int main(int argc, string argv[])
 
 void encryptMessage(string msg, int key)
 {
-    
     while (key < 0)
     {
         key = key + 26;
