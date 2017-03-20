@@ -1,0 +1,26 @@
+1.  A libary of BMP-related data types based on Microsofts
+
+2.  Using these alternative Datatypes gives a fixed size for every
+implementation of these Data types and can be used accordingly.
+
+3.  BYTE = 1 byte, DWORD = 4 bytes, LONG = 4 bytes, WORD = 2 bytes
+
+4.  Hexadecimal : 0x42 0x4D , ASCII : BM
+
+5.  bfSize is the size of the bitmap file in bytes
+biSize is the size required by the bitmap structure
+
+6.  When biHeight ist negative the memory origin is in the top left
+corner, and the picture is NOT on it's head
+
+7.  biBitCount specifies the BMP's color depth
+
+8.  When the files in argv cannot be found
+
+9.  because we are only reading one element
+
+10. 1
+
+11. goes to a certain value of a file
+
+12. SEEK_CUR sets the origin of fseek at the current position
