@@ -1,6 +1,6 @@
 # Lecture 1
 
-## Problemset 2
+## Problemset 4
 
 1. Figure out whodunit.
 

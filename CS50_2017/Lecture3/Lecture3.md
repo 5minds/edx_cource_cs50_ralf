@@ -1,6 +1,6 @@
 # Lecture 1
 
-## Problemset 2
+## Problemset 3
 
 1. Search and sort some numbers.
 
