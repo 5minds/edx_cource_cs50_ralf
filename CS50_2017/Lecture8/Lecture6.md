@@ -1,4 +1,4 @@
-# Lecture 6
+# Lecture 8
 
 ## Problemset 6
 
