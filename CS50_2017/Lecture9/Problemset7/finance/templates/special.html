@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Special Features
+{% endblock %}
+
+{% block main %}
+        <fieldset>
+            <form action="{{ url_for('password') }}">
+                <input class="btn btn-default"  type="submit" value="Change password" />
+            </form>
+            <form action="{{ url_for('cash') }}">
+                <input class="btn btn-default"  type="submit" value="Add Cash" />
+            </form>
+        </fieldset>
+{% endblock %}
